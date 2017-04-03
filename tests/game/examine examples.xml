@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<examples>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="true" />
+    <attribute typeName="где проходит игра" value="на выезде" />
+    <attribute typeName="игроки играют" value="true" />
+    <attribute typeName="будет ли матч" value="true" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="true" />
+    <attribute typeName="где проходит игра" value="дома" />
+    <attribute typeName="игроки играют" value="true" />
+    <attribute typeName="будет ли матч" value="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="true" />
+    <attribute typeName="где проходит игра" value="дома" />
+    <attribute typeName="игроки играют" value="false" />
+    <attribute typeName="будет ли матч" value="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="false" />
+    <attribute typeName="где проходит игра" value="на выезде" />
+    <attribute typeName="игроки играют" value="true" />
+    <attribute typeName="будет ли матч" value="true" />
+  </example>
+</examples>

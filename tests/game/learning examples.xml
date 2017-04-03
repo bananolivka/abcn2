@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<examples>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="true" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="где проходит игра" value="на выезде" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="игроки играют" value="true" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="будет ли матч" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="true" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="где проходит игра" value="дома" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="игроки играют" value="false" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="будет ли матч" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="false" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="где проходит игра" value="дома" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="игроки играют" value="true" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="будет ли матч" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="true" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="где проходит игра" value="дома" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="игроки играют" value="true" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="будет ли матч" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="false" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="где проходит игра" value="на выезде" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="игроки играют" value="false" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="будет ли матч" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="false" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="где проходит игра" value="дома" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="игроки играют" value="false" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="будет ли матч" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="будет ли дождь" value="false" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="где проходит игра" value="на выезде" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="игроки играют" value="true" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="будет ли матч" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+</examples>

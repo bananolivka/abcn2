@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<attrinuteTypes>
+  <attributeType isUse="true" name="будет ли дождь" type="Boolean" values="true;false" />
+  <attributeType isUse="true" name="где проходит игра" type="String" values="дома;на выезде" />
+  <attributeType isUse="true" name="игроки играют" type="Boolean" values="true;false" />
+  <attributeType isUse="true" name="будет ли матч" type="Boolean" values="true;false" />
+</attrinuteTypes>

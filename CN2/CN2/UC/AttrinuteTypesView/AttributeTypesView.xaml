@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="CN2.UC.AttrinuteTypesView.AttributeTypesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CN2.UC.AttrinuteTypesView"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Image x:Key="SaveImage" Source="../../Images/Save_16x.png"/>
+        <Image x:Key="OpenImage" Source="../../Images/Open_16x.png"/>
+    </UserControl.Resources>
+    <Grid>
+        <Menu x:Name="menu" Height="22" VerticalAlignment="Top">
+            <Button x:Name="buttonLoadAttrinuteTypes" Content="{StaticResource OpenImage}" Margin="0,2,0,0" Height="16" Width="20" Click="buttonLoadAttrinuteTypes_Click" ToolTip="Загрузить типы атрибутов из файла"/>
+            <Button x:Name="buttonSaveAttrinuteTypes" Content="{StaticResource SaveImage}" Margin="0,2,0,0" Height="16" Width="20" Click="buttonSaveAttrinuteTypes_Click" ToolTip="Сохранить типы атрибутов в файл"/>
+        </Menu>
+        <DataGrid x:Name="dataGrid" Margin="0,22,0,0" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserAddRows="True" CanUserDeleteRows="True" CanUserResizeRows="False" RowHeight="24" HeadersVisibility="Column" MouseDown="dataGrid_MouseDown" CellEditEnding="dataGrid_CellEditEnding" GotFocus="dataGrid_GotFocus" CanUserSortColumns="False"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="CN2.UC.NumericUpDown.NumericUpDown"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CN2.UC.NumericUpDown"
+             xmlns:converters="clr-namespace:CN2.UC.Converters"
+             mc:Ignorable="d" Height="20">
+    <Grid x:Name="gridTextBox" MinHeight="20" MinWidth="40">
+        <TextBox x:Name="textBoxValue" Padding="0,0,0,0"  TextWrapping="Wrap" Text="1" HorizontalAlignment="Stretch" Margin="0,0,20,0" TextChanged="textBoxValue_TextChanged"/>
+        <Button x:Name="buttonUp" Padding="0" Height="{Binding Path=ActualHeight, ElementName=gridTextBox, Converter={converters:PercentageConverter}, ConverterParameter='0,5'}" Width="20" VerticalAlignment="Top" HorizontalAlignment="Right" Click="buttonUp_Click">
+            <Label FontFamily="Marlett" FontSize="10" Content="5" Margin="0,0,0,0" Padding="0,0,0,0" VerticalAlignment="Bottom"/>
+        </Button>
+        <Button x:Name="buttonDown" Padding="0" Height="{Binding Path=ActualHeight, ElementName=gridTextBox, Converter={converters:PercentageConverter}, ConverterParameter='0,5'}" Width="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="buttonDown_Click">
+            <Label FontFamily="Marlett" FontSize="10" Content="6" Margin="0,-1,0,0" Padding="0,0,0,0" VerticalAlignment="Bottom"/>
+        </Button>
+    </Grid>
+</UserControl>

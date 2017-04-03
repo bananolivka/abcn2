@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="CN2.UC.ArguedLearningExamplesView.ArguedLearningExamplesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CN2.UC.ArguedLearningExamplesView"
+             xmlns:numericUpDown="clr-namespace:CN2.UC.NumericUpDown"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600">
+    <UserControl.Resources>
+        <Image x:Key="SaveImage" Source="../../Images/Save_16x.png"/>
+        <Image x:Key="OpenImage" Source="../../Images/Open_16x.png"/>
+        <Image x:Key="LearnImage" Source="../../Images/Learn_16x.png"/>
+    </UserControl.Resources>
+    <Grid>
+        <Menu x:Name="menu" Height="22" VerticalAlignment="Top">
+            <Button x:Name="buttonLoadExamples" Content="{StaticResource OpenImage}" Height="16" Width="20" Click="buttonLoadExamples_Click" ToolTip="Загрузить примеры из файла"/>
+            <Button x:Name="buttonSaveExamples" Content="{StaticResource SaveImage}" Height="16" Width="20" Click="buttonSaveExamples_Click" ToolTip="Сохранить примеры в файл"/>
+            <Label x:Name="labelStarSize" Content="STARSIZE:" Padding="0"/>
+            <numericUpDown:NumericUpDown x:Name="numericUpDownStarSize" Value="3" Width="40"/>
+            <Label x:Name="labelHeapSize" Content="HEAPSIZE:" Padding="0"/>
+            <numericUpDown:NumericUpDown x:Name="numericUpDownHeapSize" Value="3" Width="40"/>
+            <Label x:Name="labelCoversCount" Content="Количество наборов:" Padding="0"/>
+            <numericUpDown:NumericUpDown x:Name="numericUpDownCoversCount" Value="2" Width="40"/>
+            <Button x:Name="buttonLearn" Content="{StaticResource LearnImage}" Height="16" Width="20" Click="buttonLearn_Click" ToolTip="Провести обучение"/>
+        </Menu>
+        <DataGrid x:Name="dataGrid" Margin="0,22,0,0" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserAddRows="True" CanUserDeleteRows="True" CanUserResizeRows="False" RowHeight="24" HeadersVisibility="Column" InitializingNewItem="dataGrid_InitializingNewItem" CellEditEnding="dataGrid_CellEditEnding" GotFocus="dataGrid_GotFocus" CanUserSortColumns="True" MouseUp="dataGrid_MouseUp">
+            
+        </DataGrid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<attrinuteTypes>
+  <attributeType isUse="true" name="Outlook" type="String" values="sunny;overcast;rain" />
+  <attributeType isUse="true" name="Temperature" type="String" values="hot;cool;mild" />
+  <attributeType isUse="true" name="Humidty" type="String" values="high;normal" />
+  <attributeType isUse="true" name="Wind" type="String" values="weak;strong" />
+  <attributeType isUse="true" name="Play Ball" type="Boolean" values="false;true" />
+</attrinuteTypes>

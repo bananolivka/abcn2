@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<examples>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="sunny" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="hot" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="sunny" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="hot" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="strong" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Play Ball" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="overcast" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="hot" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="rain" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="Temperature" value="mild" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="rain" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="Temperature" value="cool" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="rain" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="Temperature" value="cool" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="strong" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Play Ball" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="overcast" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="cool" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="strong" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="sunny" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="mild" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="sunny" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="cool" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="rain" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="Temperature" value="mild" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="sunny" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="mild" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="strong" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="overcast" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="mild" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="strong" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="overcast" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Temperature" value="hot" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="normal" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Wind" value="weak" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Play Ball" value="true" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+  <example isUse="true">
+    <attribute typeName="Outlook" value="rain" isDecisive="false" isBecause="false" isDespite="true" />
+    <attribute typeName="Temperature" value="mild" isDecisive="false" isBecause="false" isDespite="false" />
+    <attribute typeName="Humidty" value="high" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Wind" value="strong" isDecisive="false" isBecause="true" isDespite="false" />
+    <attribute typeName="Play Ball" value="false" isDecisive="true" isBecause="false" isDespite="false" />
+  </example>
+</examples>

@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="CN2.UC.Log.Log"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CN2.UC.Log"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <Image x:Key="SaveImage" Source="../../Images/Save_16x.png"/>
+    </UserControl.Resources>
+    <Grid>
+        <Menu x:Name="menu" Height="22" VerticalAlignment="Top">
+            <Label Content="Журнал" Padding="0"/>
+            <Button x:Name="buttonSaveLog" Margin="0,2,0,0" Content="{StaticResource SaveImage}" Height="16" Width="20" Click="buttonSaveLog_Click" ToolTip="Сохранить журнал в файл"/>
+        </Menu>
+        <ScrollViewer x:Name="scrollViewer" Margin="0,22,0,0">
+            <TextBlock x:Name="logTextBlock" TextWrapping="Wrap" Text="" Background="White"/>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

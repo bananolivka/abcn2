@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<attrinuteTypes>
+  <attributeType isUse="true" name="a1" type="Integer" values="1;2;3" />
+  <attributeType isUse="true" name="a2" type="Integer" values="1;2;3" />
+  <attributeType isUse="true" name="a3" type="Integer" values="1;2" />
+  <attributeType isUse="true" name="a4" type="Integer" values="1;2;3" />
+  <attributeType isUse="true" name="a5" type="Integer" values="1;2;3;4" />
+  <attributeType isUse="true" name="a6" type="Integer" values="1;2" />
+  <attributeType isUse="true" name="cX" type="Boolean" values="true;false" />
+</attrinuteTypes>
